@@ -1,5 +1,7 @@
-<app-header></app-header>
-<app-nav-bar></app-nav-bar>
-<div class="body">
-    <router-outlet></router-outlet>
+<div [ngClass]="{'fullscreen':!screen.showMenu}">
+    <app-header></app-header>
+    <app-nav-bar></app-nav-bar>
+    <div class="body">
+        <router-outlet></router-outlet>
+    </div>
 </div>

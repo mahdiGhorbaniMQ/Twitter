@@ -1,18 +1,31 @@
 app-nav-bar{
     position: fixed;
-    top: 50px; 
+    top: 60px; left: 0;
     width: 250px; height: calc(100vh - 50px);
     display: flex; flex-direction: column; 
     justify-content: center;
     align-items: center;
+    transition: left .4s;
 }
 app-header{
     position: fixed;
     top: 0; right: 0; left: 0;
-    height: 50px;
+    height: 60px;
+    display: flex;
+    align-items: center;
 }
 .body{
     position: fixed;
-    top: 50px;
-    left: 250px;
+    top: 160px;
+    left: 350px;
+    transition: all .4s;
+}
+
+.fullscreen{
+    .body{
+        left: 100px !important;
+    }
+    app-nav-bar{
+        left: -250px;
+    }
 }
