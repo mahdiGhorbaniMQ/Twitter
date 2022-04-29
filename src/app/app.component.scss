@@ -1,0 +1,18 @@
+app-nav-bar{
+    position: fixed;
+    top: 50px; 
+    width: 250px; height: calc(100vh - 50px);
+    display: flex; flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+app-header{
+    position: fixed;
+    top: 0; right: 0; left: 0;
+    height: 50px;
+}
+.body{
+    position: fixed;
+    top: 50px;
+    left: 250px;
+}
