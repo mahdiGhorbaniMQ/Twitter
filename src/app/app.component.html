@@ -1,7 +1,7 @@
 <div [ngClass]="{'fullscreen':!screen.showMenu}">
     <app-header></app-header>
     <app-nav-bar></app-nav-bar>
-    <div class="body">
+    <div class="body" (click)="selectBody()" [ngClass]="{'hideInfo':screen.innerWidth<=700}">
         <router-outlet></router-outlet>
     </div>
 </div>

@@ -10,7 +10,13 @@ export class AuthService {
     return{
       name:"mahdi",
       family:"ghorbani",
-      image:"../../../../../assets/profile.jpg"
+      image:"../../../../../assets/profile.jpg",
+      username:"MahdiGhorbaniMQ",
+      location:"Tehran",
+      bio:"CE Student, live in the tehran!",
+      followers:"5.6k",
+      tweets:749,
+      followings:984
     }
   }
 }

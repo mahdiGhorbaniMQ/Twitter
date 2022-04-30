@@ -8,7 +8,6 @@ import { ScreenService } from './core/services/screen.service';
 })
 export class AppComponent {
   title = 'twitter';
-  screenWidth!:number
   constructor(public screen:ScreenService){}
 
   ngOnInit() {
@@ -18,5 +17,10 @@ export class AppComponent {
   @HostListener('window:resize')
   checkScreen(){
     this.screen.checkScreen()
+  }
+
+  selectBody(){
+    if(window.innerWidth<700)
+      this.screen.showMenu = false
   }
 }

@@ -16,14 +16,12 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatDialogModule} from '@angular/material/dialog'; 
 import {MatRippleModule} from '@angular/material/core';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 
 @NgModule({
   declarations: [],
   imports: [
     CommonModule,
-    BrowserAnimationsModule,
     MatToolbarModule,
     MatInputModule,
     MatCardModule,
@@ -45,7 +43,6 @@ import {MatAutocompleteModule} from '@angular/material/autocomplete';
   ],
   exports:[
     MatToolbarModule,
-    BrowserAnimationsModule,
     MatInputModule,
     MatCardModule,
     MatMenuModule,
