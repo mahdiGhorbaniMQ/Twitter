@@ -2,6 +2,29 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.3.
 
+
+# Screens
+![Screen](./screens/1.png)
+
+
+![Screen](./screens/2.png)
+
+
+![Screen](./screens/3.png)
+
+
+![Screen](./screens/4.png)
+
+
+![Screen](./screens/5.png)
+
+
+![Screen](./screens/6.png)
+
+
+![Screen](./screens/7.png)
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

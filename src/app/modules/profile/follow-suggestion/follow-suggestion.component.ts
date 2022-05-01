@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-follow-suggestion',
@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FollowSuggestionComponent implements OnInit {
 
+  @Input("user") user!:{
+    name:string,
+    family:string,
+    image:string,
+    username:string
+  }
   constructor() { }
 
   ngOnInit(): void {
